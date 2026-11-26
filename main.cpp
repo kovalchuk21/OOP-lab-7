@@ -48,7 +48,7 @@ int main()
     long long length;
     fin >> first >> second >> length >> resultName;
 
-    PrintBox("<------- CLASS TEMPLATE FileComparator<T> (VARIANT 10) ------->");
+    PrintBox("<------- CLASS TEMPLATE FileComparator<T> ------->");
 
     Test<int>("int", first, second, static_cast<int>(length), "int_" + resultName);
     Test<long long>("long long", first, second, length, "longlong_" + resultName);
